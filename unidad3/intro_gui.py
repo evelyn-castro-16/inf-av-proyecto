@@ -1,0 +1,165 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'intro_gui.ui'
+##
+## Created by: Qt User Interface Compiler version 6.11.0
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
+    QCursor, QFont, QFontDatabase, QGradient,
+    QIcon, QImage, QKeySequence, QLinearGradient,
+    QPainter, QPalette, QPixmap, QRadialGradient,
+    QTransform)
+from PySide6.QtWidgets import (QApplication, QCheckBox, QGroupBox, QLCDNumber,
+    QLabel, QLineEdit, QMainWindow, QMenuBar,
+    QPushButton, QRadioButton, QSizePolicy, QStatusBar,
+    QTextEdit, QWidget)
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.resize(793, 477)
+        self.actionNuevo_Usuario = QAction(MainWindow)
+        self.actionNuevo_Usuario.setObjectName(u"actionNuevo_Usuario")
+        self.actionCambiar_Usuario = QAction(MainWindow)
+        self.actionCambiar_Usuario.setObjectName(u"actionCambiar_Usuario")
+        self.actionJerarqu_as = QAction(MainWindow)
+        self.actionJerarqu_as.setObjectName(u"actionJerarqu_as")
+        self.actionAlarmas = QAction(MainWindow)
+        self.actionAlarmas.setObjectName(u"actionAlarmas")
+        self.actionAjustes = QAction(MainWindow)
+        self.actionAjustes.setObjectName(u"actionAjustes")
+        self.actionImportar_Exportar = QAction(MainWindow)
+        self.actionImportar_Exportar.setObjectName(u"actionImportar_Exportar")
+        self.actionB_squeda = QAction(MainWindow)
+        self.actionB_squeda.setObjectName(u"actionB_squeda")
+        self.actionHistorial_Actividad = QAction(MainWindow)
+        self.actionHistorial_Actividad.setObjectName(u"actionHistorial_Actividad")
+        self.actionEstado_de_Sistema = QAction(MainWindow)
+        self.actionEstado_de_Sistema.setObjectName(u"actionEstado_de_Sistema")
+        self.actionReporte_Diario_Mensual = QAction(MainWindow)
+        self.actionReporte_Diario_Mensual.setObjectName(u"actionReporte_Diario_Mensual")
+        self.centralwidget = QWidget(MainWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.pushButton_cerrar_app = QPushButton(self.centralwidget)
+        self.pushButton_cerrar_app.setObjectName(u"pushButton_cerrar_app")
+        self.pushButton_cerrar_app.setGeometry(QRect(650, 10, 121, 31))
+        self.pushButton_cerrar_app.setStyleSheet(u"background-color: rgb(255, 0, 0);\n"
+"color: rgb(255, 255, 255);\n"
+"font: 700 11pt \"Segoe UI\";")
+        self.pushButton_fondo_verde = QPushButton(self.centralwidget)
+        self.pushButton_fondo_verde.setObjectName(u"pushButton_fondo_verde")
+        self.pushButton_fondo_verde.setGeometry(QRect(70, 20, 75, 24))
+        self.pushButton_fondo_rojo = QPushButton(self.centralwidget)
+        self.pushButton_fondo_rojo.setObjectName(u"pushButton_fondo_rojo")
+        self.pushButton_fondo_rojo.setGeometry(QRect(170, 20, 75, 24))
+        self.textEdit_incrementar = QTextEdit(self.centralwidget)
+        self.textEdit_incrementar.setObjectName(u"textEdit_incrementar")
+        self.textEdit_incrementar.setGeometry(QRect(50, 80, 104, 41))
+        self.pushButton_incrementar = QPushButton(self.centralwidget)
+        self.pushButton_incrementar.setObjectName(u"pushButton_incrementar")
+        self.pushButton_incrementar.setGeometry(QRect(420, 80, 141, 41))
+        self.lcdNumber_incrementar = QLCDNumber(self.centralwidget)
+        self.lcdNumber_incrementar.setObjectName(u"lcdNumber_incrementar")
+        self.lcdNumber_incrementar.setGeometry(QRect(190, 90, 64, 23))
+        self.lcdNumber_incrementar.setStyleSheet(u"background-color: rgb(0, 0, 0);")
+        self.lineEdit_incrementar = QLineEdit(self.centralwidget)
+        self.lineEdit_incrementar.setObjectName(u"lineEdit_incrementar")
+        self.lineEdit_incrementar.setGeometry(QRect(290, 90, 113, 21))
+        self.label_tiempo = QLabel(self.centralwidget)
+        self.label_tiempo.setObjectName(u"label_tiempo")
+        self.label_tiempo.setGeometry(QRect(60, 160, 81, 31))
+        self.lcdNumber_tiempo = QLCDNumber(self.centralwidget)
+        self.lcdNumber_tiempo.setObjectName(u"lcdNumber_tiempo")
+        self.lcdNumber_tiempo.setGeometry(QRect(190, 160, 64, 23))
+        self.lcdNumber_tiempo.setStyleSheet(u"background-color: rgb(0, 0, 0);")
+        self.label_warning = QLabel(self.centralwidget)
+        self.label_warning.setObjectName(u"label_warning")
+        self.label_warning.setGeometry(QRect(330, 160, 91, 31))
+        self.label_warning.setStyleSheet(u"background-color: rgb(0, 0, 255);")
+        self.label_texto_replicado = QLabel(self.centralwidget)
+        self.label_texto_replicado.setObjectName(u"label_texto_replicado")
+        self.label_texto_replicado.setGeometry(QRect(80, 250, 141, 16))
+        self.lineEdit_texto_replicado = QLineEdit(self.centralwidget)
+        self.lineEdit_texto_replicado.setObjectName(u"lineEdit_texto_replicado")
+        self.lineEdit_texto_replicado.setGeometry(QRect(60, 230, 191, 21))
+        self.radioButton_amarillo = QRadioButton(self.centralwidget)
+        self.radioButton_amarillo.setObjectName(u"radioButton_amarillo")
+        self.radioButton_amarillo.setGeometry(QRect(680, 180, 89, 20))
+        self.radioButton_celeste = QRadioButton(self.centralwidget)
+        self.radioButton_celeste.setObjectName(u"radioButton_celeste")
+        self.radioButton_celeste.setGeometry(QRect(680, 220, 89, 20))
+        self.groupBox_color = QGroupBox(self.centralwidget)
+        self.groupBox_color.setObjectName(u"groupBox_color")
+        self.groupBox_color.setGeometry(QRect(530, 170, 120, 80))
+        self.groupBox_color.setStyleSheet(u"background-color: rgb(255, 255, 0);")
+        self.groupBox_check2 = QGroupBox(self.centralwidget)
+        self.groupBox_check2.setObjectName(u"groupBox_check2")
+        self.groupBox_check2.setGeometry(QRect(60, 300, 120, 80))
+        self.groupBox_check2.setStyleSheet(u"background-color: qconicalgradient(cx:0, cy:0, angle:139.6, stop:0 rgba(60, 255, 211, 69), stop:0.0511364 rgba(0, 255, 113, 208), stop:0.170455 rgba(179, 71, 255, 130), stop:0.301136 rgba(51, 255, 159, 255), stop:0.375 rgba(0, 255, 255, 69), stop:0.57754 rgba(0, 168, 255, 130), stop:0.625 rgba(255, 255, 0, 69), stop:0.738636 rgba(0, 255, 25, 145), stop:0.840909 rgba(116, 255, 71, 130), stop:1 rgba(18, 0, 255, 69));")
+        self.groupBox_check1 = QGroupBox(self.centralwidget)
+        self.groupBox_check1.setObjectName(u"groupBox_check1")
+        self.groupBox_check1.setGeometry(QRect(190, 300, 120, 80))
+        self.groupBox_check1.setStyleSheet(u"background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 255), stop:0.19397 rgba(0, 0, 0, 255), stop:0.202312 rgba(122, 97, 0, 255), stop:0.495514 rgba(76, 58, 0, 255), stop:0.504819 rgba(255, 255, 255, 255), stop:0.79 rgba(255, 255, 255, 255), stop:1 rgba(255, 158, 158, 255));")
+        self.checkBox_gb1_naranja = QCheckBox(self.centralwidget)
+        self.checkBox_gb1_naranja.setObjectName(u"checkBox_gb1_naranja")
+        self.checkBox_gb1_naranja.setGeometry(QRect(330, 310, 111, 20))
+        self.checkBox_gb1_naranja.setChecked(True)
+        self.checkBox_gb2_violeta = QCheckBox(self.centralwidget)
+        self.checkBox_gb2_violeta.setObjectName(u"checkBox_gb2_violeta")
+        self.checkBox_gb2_violeta.setGeometry(QRect(330, 350, 101, 20))
+        self.checkBox_gb2_violeta.setChecked(True)
+        self.label_imagen = QLabel(self.centralwidget)
+        self.label_imagen.setObjectName(u"label_imagen")
+        self.label_imagen.setGeometry(QRect(560, 300, 111, 91))
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.statusbar = QStatusBar(MainWindow)
+        self.statusbar.setObjectName(u"statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+        self.menuBar = QMenuBar(MainWindow)
+        self.menuBar.setObjectName(u"menuBar")
+        self.menuBar.setGeometry(QRect(0, 0, 793, 22))
+        MainWindow.setMenuBar(self.menuBar)
+
+        self.retranslateUi(MainWindow)
+
+        QMetaObject.connectSlotsByName(MainWindow)
+    # setupUi
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        self.actionNuevo_Usuario.setText(QCoreApplication.translate("MainWindow", u"Nuevo Usuario", None))
+        self.actionCambiar_Usuario.setText(QCoreApplication.translate("MainWindow", u"Cambiar Usuario", None))
+        self.actionJerarqu_as.setText(QCoreApplication.translate("MainWindow", u"Jerarqu\u00edas", None))
+        self.actionAlarmas.setText(QCoreApplication.translate("MainWindow", u"Generar PDF", None))
+        self.actionAjustes.setText(QCoreApplication.translate("MainWindow", u"Ajustes", None))
+        self.actionImportar_Exportar.setText(QCoreApplication.translate("MainWindow", u"Importar/Exportar Datos", None))
+        self.actionB_squeda.setText(QCoreApplication.translate("MainWindow", u"B\u00fasqueda", None))
+        self.actionHistorial_Actividad.setText(QCoreApplication.translate("MainWindow", u"Historial Actividad", None))
+        self.actionEstado_de_Sistema.setText(QCoreApplication.translate("MainWindow", u"Estado del Sistema", None))
+        self.actionReporte_Diario_Mensual.setText(QCoreApplication.translate("MainWindow", u"Reporte Diario/Mensual", None))
+        self.pushButton_cerrar_app.setText(QCoreApplication.translate("MainWindow", u"CERRAR APP", None))
+        self.pushButton_fondo_verde.setText(QCoreApplication.translate("MainWindow", u"fondo verde", None))
+        self.pushButton_fondo_rojo.setText(QCoreApplication.translate("MainWindow", u"fondo rojo", None))
+        self.pushButton_incrementar.setText(QCoreApplication.translate("MainWindow", u"incrementar contador", None))
+        self.label_tiempo.setText(QCoreApplication.translate("MainWindow", u"Tiempo [seg.]", None))
+        self.label_warning.setText(QCoreApplication.translate("MainWindow", u"WARNING", None))
+        self.label_texto_replicado.setText(QCoreApplication.translate("MainWindow", u"texto replicado", None))
+        self.lineEdit_texto_replicado.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Ingrese texto a replicar", None))
+        self.radioButton_amarillo.setText(QCoreApplication.translate("MainWindow", u"GB amarillo", None))
+        self.radioButton_celeste.setText(QCoreApplication.translate("MainWindow", u"GB Celeste", None))
+        self.groupBox_color.setTitle(QCoreApplication.translate("MainWindow", u"GroupBox", None))
+        self.groupBox_check2.setTitle(QCoreApplication.translate("MainWindow", u"GroupBox", None))
+        self.groupBox_check1.setTitle(QCoreApplication.translate("MainWindow", u"GroupBox", None))
+        self.checkBox_gb1_naranja.setText(QCoreApplication.translate("MainWindow", u"GB1 NARANJA", None))
+        self.checkBox_gb2_violeta.setText(QCoreApplication.translate("MainWindow", u"GB2 VIOLETA", None))
+        self.label_imagen.setText(QCoreApplication.translate("MainWindow", u"TextLabel", None))
+    # retranslateUi
+

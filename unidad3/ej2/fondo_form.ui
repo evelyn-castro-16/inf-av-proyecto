@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>488</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_fondo_formulario">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>60</y>
+      <width>361</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 12pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="title">
+     <string>FONDO DEL FORMULARIO</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_fondo_azul">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>40</y>
+       <width>75</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 255);
+font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>AZUL</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_fondo_verde">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>40</y>
+       <width>75</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 170, 0);
+font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>VERDE</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_fondo_violeta">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>40</y>
+       <width>75</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(170, 85, 255);
+font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>VIOLETA</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>488</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="actionNuevo_Usuario">
+   <property name="text">
+    <string>Nuevo Usuario</string>
+   </property>
+  </action>
+  <action name="actionCambiar_Usuario">
+   <property name="text">
+    <string>Cambiar Usuario</string>
+   </property>
+  </action>
+  <action name="actionJerarqu_as">
+   <property name="text">
+    <string>Jerarquías</string>
+   </property>
+  </action>
+  <action name="actionAlarmas">
+   <property name="text">
+    <string>Generar PDF</string>
+   </property>
+  </action>
+  <action name="actionAjustes">
+   <property name="text">
+    <string>Ajustes</string>
+   </property>
+  </action>
+  <action name="actionImportar_Exportar">
+   <property name="text">
+    <string>Importar/Exportar Datos</string>
+   </property>
+  </action>
+  <action name="actionB_squeda">
+   <property name="text">
+    <string>Búsqueda</string>
+   </property>
+  </action>
+  <action name="actionHistorial_Actividad">
+   <property name="text">
+    <string>Historial Actividad</string>
+   </property>
+  </action>
+  <action name="actionEstado_de_Sistema">
+   <property name="text">
+    <string>Estado del Sistema</string>
+   </property>
+  </action>
+  <action name="actionReporte_Diario_Mensual">
+   <property name="text">
+    <string>Reporte Diario/Mensual</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

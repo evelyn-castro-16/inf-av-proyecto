@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>359</width>
+    <height>224</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_cambio_variable">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>271</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 12pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="title">
+     <string>CAMBIO VARIABLE</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_incrementar_variable_1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>131</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 255);
+font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>INCREMENTAR</string>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="plainTextEdit_variable_1">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>40</y>
+       <width>61</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_decrementar_variable_1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>131</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 85, 255);
+font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>DECREMENTAR</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>359</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="actionNuevo_Usuario">
+   <property name="text">
+    <string>Nuevo Usuario</string>
+   </property>
+  </action>
+  <action name="actionCambiar_Usuario">
+   <property name="text">
+    <string>Cambiar Usuario</string>
+   </property>
+  </action>
+  <action name="actionJerarqu_as">
+   <property name="text">
+    <string>Jerarquías</string>
+   </property>
+  </action>
+  <action name="actionAlarmas">
+   <property name="text">
+    <string>Generar PDF</string>
+   </property>
+  </action>
+  <action name="actionAjustes">
+   <property name="text">
+    <string>Ajustes</string>
+   </property>
+  </action>
+  <action name="actionImportar_Exportar">
+   <property name="text">
+    <string>Importar/Exportar Datos</string>
+   </property>
+  </action>
+  <action name="actionB_squeda">
+   <property name="text">
+    <string>Búsqueda</string>
+   </property>
+  </action>
+  <action name="actionHistorial_Actividad">
+   <property name="text">
+    <string>Historial Actividad</string>
+   </property>
+  </action>
+  <action name="actionEstado_de_Sistema">
+   <property name="text">
+    <string>Estado del Sistema</string>
+   </property>
+  </action>
+  <action name="actionReporte_Diario_Mensual">
+   <property name="text">
+    <string>Reporte Diario/Mensual</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

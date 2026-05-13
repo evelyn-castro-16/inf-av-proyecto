@@ -1,0 +1,10 @@
+Para integrar un gráfico (lineas, barras, torta, etc.) en una aplicación de PySide6 diseñada con Qt Designer hay que utilizar un componente del tipo QWidget.
+
+Pasos:
+1 - En Qt Designer, busca un componente Widget en el panel lateral y arrástralo a la ventana.
+2 - Hacer clic derecho sobre ese Widget y selecciona "Promote to..." (Promocionar a...).
+3 - En "Promoted class name" (Nombre de la clase promocionada), escribir: QChartView.
+4 - En "Header file" (Archivo de cabecera), escribir: PySide6.QtCharts.
+5 - Hacer clic en "Add" (Añadir) y luego en Promote (Promocionar).
+
+Para agregar un 2do grafico, insertar un 2do QWidget y directamente hacer click derecho sobre el mismo y "Promocionar a" > "QChartView"

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>838</width>
+    <height>485</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(170, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QCommandLinkButton" name="commandLinkButton_go_home">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>0</y>
+      <width>31</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::GoHome"/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>90</y>
+      <width>611</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IMAGEN PROCESO</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>838</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionAjustes"/>
+    <addaction name="actionImportar_Exportar"/>
+   </widget>
+   <widget class="QMenu" name="menuUsuarios">
+    <property name="title">
+     <string>Usuarios</string>
+    </property>
+    <addaction name="actionNuevo_Usuario"/>
+    <addaction name="actionCambiar_Usuario"/>
+    <addaction name="actionJerarqu_as"/>
+   </widget>
+   <widget class="QMenu" name="menuRecetas">
+    <property name="title">
+     <string>Recetas</string>
+    </property>
+    <addaction name="actionNueva_Receta"/>
+    <addaction name="actionModificar_Receta"/>
+    <addaction name="actionEliminar_Receta"/>
+   </widget>
+   <widget class="QMenu" name="menuHistorial">
+    <property name="title">
+     <string>Historial</string>
+    </property>
+    <addaction name="actionCargar_BD"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuUsuarios"/>
+   <addaction name="menuRecetas"/>
+   <addaction name="menuHistorial"/>
+  </widget>
+  <action name="actionNuevo_Usuario">
+   <property name="text">
+    <string>Nuevo Usuario</string>
+   </property>
+  </action>
+  <action name="actionCambiar_Usuario">
+   <property name="text">
+    <string>Cambiar Usuario</string>
+   </property>
+  </action>
+  <action name="actionJerarqu_as">
+   <property name="text">
+    <string>Jerarquías</string>
+   </property>
+  </action>
+  <action name="actionAlarmas">
+   <property name="text">
+    <string>Generar PDF</string>
+   </property>
+  </action>
+  <action name="actionAjustes">
+   <property name="text">
+    <string>Ajustes</string>
+   </property>
+  </action>
+  <action name="actionImportar_Exportar">
+   <property name="text">
+    <string>Importar/Exportar Datos</string>
+   </property>
+  </action>
+  <action name="actionB_squeda">
+   <property name="text">
+    <string>Búsqueda</string>
+   </property>
+  </action>
+  <action name="actionHistorial_Actividad">
+   <property name="text">
+    <string>Historial Actividad</string>
+   </property>
+  </action>
+  <action name="actionEstado_de_Sistema">
+   <property name="text">
+    <string>Estado del Sistema</string>
+   </property>
+  </action>
+  <action name="actionReporte_Diario_Mensual">
+   <property name="text">
+    <string>Reporte Diario/Mensual</string>
+   </property>
+  </action>
+  <action name="actionNueva_Receta">
+   <property name="text">
+    <string>Nueva Receta</string>
+   </property>
+  </action>
+  <action name="actionModificar_Receta">
+   <property name="text">
+    <string>Modificar Receta</string>
+   </property>
+  </action>
+  <action name="actionEliminar_Receta">
+   <property name="text">
+    <string>Eliminar Receta</string>
+   </property>
+  </action>
+  <action name="actionCargar_BD">
+   <property name="text">
+    <string>Consultas BD</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

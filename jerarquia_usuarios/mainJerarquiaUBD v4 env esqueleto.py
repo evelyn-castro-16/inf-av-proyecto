@@ -7,12 +7,20 @@ import os
 from dotenv import load_dotenv
 from JerarquiaUsuarios import Ui_MainWindow
 
-DB_HOST = "localhost" #Informacion de la base de datos. Es conveniente guardar las credenciales en un archivo archivo .env y leerlas con python-dotenv
-DB_USER = "IAvanzada"
-DB_PASSWORD = "3744"
-DB_NAME = "acceso"
-DB_TABLANAME = "usuarios"
+# DB_HOST = "localhost" #Informacion de la base de datos. Es conveniente guardar las credenciales en un archivo archivo .env y leerlas con python-dotenv
+# DB_USER = "IAvanzada"
+# DB_PASSWORD = "3744"
+# DB_NAME = "acceso"
+# DB_TABLANAME = "usuarios"
  
+load_dotenv() #Cargar variables de entorno desde el archivo .env
+DB_HOST = os.getenv("DB_HOST")
+DB_USER = os.getenv("DB_USER")
+#DB_HOST = os.getenv("DB_HOST", "localhost") #Se pueden usar valores por defecto (por si el .env no existe o falta una variable)
+#DB_NAME = os.getenv("DB_NAME", "acceso")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
+DB_NAME = os.getenv("DB_NAME")
+DB_TABLANAME = os.getenv("DB_TABLANAME")
 
 class MainWindow(QMainWindow, Ui_MainWindow):
 	def __init__(self):
